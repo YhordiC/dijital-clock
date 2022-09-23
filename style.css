@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('https://images4.alphacoders.com/772/772364.png');
+    background-size: 1500px 100vh;
+    background-position: center center;
+    
+}
+
+h2{
+    text-transform: uppercase; /* el uppercase convierte en Mayusculas*/
+    letter-spacing: 4px; /* podemos manipular el espacio entre letras*/
+    font-size: 3em; 
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-shadow:  4px -2px 9px #ff0000, 5px -3px 7px #005aff, 9px -2px 4px #faff00fc;
+    overflow: hidden;
+}
+
+.clock{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.clock div{
+    margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background:slateblue;
+    opacity: 0.8; /* es la intensidad de la caja*/ 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0);
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 6%;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    
+}
